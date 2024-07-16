@@ -77,6 +77,9 @@ header nav{
 }
 
 @media (max-width: 1024px) {
+  header{
+    padding: 40px 30px;
+  }
   .product-info {
     flex-direction: column;
     text-align: center;
@@ -89,7 +92,7 @@ header nav{
     margin-bottom: 40px;
   }
   .product-info .illustration{
-    width: 45%;
+    width: 40%;
   }
 }
 
