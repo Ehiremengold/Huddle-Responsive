@@ -1,0 +1,121 @@
+header {
+  background-color: var(--header-background-color);
+  background-image: url("../images/bg-hero-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* border: 1px solid red; */
+  width: 100%;
+  padding: 30px 120px 0 120px;
+  box-sizing: border-box;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 2500px) {
+  header {
+    height: 60%;
+  }
+}
+
+
+.free-btn {
+  box-shadow: 2px 3px 5px rgba(96, 96, 96, 0.5);
+  border-radius: 45px;
+  padding: 6px 45px;
+  background-color: white;
+  font-weight: 500;
+}
+
+.cta-btn {
+  background-color: var(--cta-btn-color);
+  color: white;
+  font-size: 13px;
+  font-weight: 550;
+  padding: 20px 60px;
+  border-radius: 30px;
+}
+
+.product-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.product-info h1 {
+  font-size: 2.9em;
+  font-weight: 600;
+  color: var(--bigger-text-color-in-main);
+  width: 600px;
+  line-height: 60px;
+}
+
+
+.product-info .illustration {
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width:  1440px) {
+  .product-info .illustration {
+    max-width: 50%;
+  }
+}
+.text-section p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 560px;
+  font-size: 18px;
+  color: var(--smaller-text-color-in-header);
+  line-height: 30px;
+}
+
+@media (max-width: 1024px) {
+  .product-info {
+    flex-direction: column;
+    text-align: center;
+    margin-inline: center;
+  }
+  .product-info h1 {
+    line-height: 50px;
+  }
+  .cta-btn{
+    margin-bottom: 40px;
+  }
+  .product-info .illustration{
+    width: 45%;
+  }
+}
+
+@media (max-width:425px) {
+  header{
+    padding: 20px 20px 0 20px;
+    text-align: center;
+  }
+  header nav img{
+    width: 40%;
+  }
+  .product-info h1{
+    font-size: 32px;
+    max-width: 360px;
+  }
+  .product-info .illustration{
+    width: 80%;
+  }
+  .product-info p{
+   max-width: 350px;
+  }
+  .free-btn{
+    padding: 6px 20px;
+  }
+  .cta-btn{
+    padding: 10px 30px;
+  }
+}
+

@@ -1,0 +1,26 @@
+:root {
+  --smaller-text-color-in-main: hsl(208, 11%, 55%);
+  --bigger-text-color-in-main: hsl(192, 100%, 9%);
+  --smaller-text-color-in-header: hsl(192, 100%, 9%);
+  --footer-background-color: hsl(192, 100%, 9%);
+  --header-background-color: hsl(193, 100%, 96%);
+  --font-family: Poppins;
+  --cta-btn-color: hsl(322, 100%, 66%);
+}
+
+* {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  box-sizing: border-box;
+  line-height: 1;
+  max-width: 2000px;
+  margin-inline: auto;
+  width: 100%;
+}

@@ -1,0 +1,130 @@
+footer {
+  margin-top: 360px;
+  max-height: 400px;
+  background-color: var(--footer-background-color);
+  position: relative;
+  color: white;
+  padding-top: 170px;
+  padding-bottom: 200px;
+}
+
+.build-your-community {
+  position: absolute;
+  background-color: white;
+  border-radius: 8px;
+  width: 75%;
+  max-width: 600px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: -100px;
+  left: 50%;
+  padding: 30px;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.build-your-community h3 {
+  color: var(--footer-background-color);
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer-content {
+  max-width: 90%;
+  margin-inline: auto;
+  /* border: 1px solid red; */
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+.footer-logo-div {
+  margin-bottom: 50px;
+}
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.even-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+.contact {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: top;
+}
+.contact p {
+  width: 350px;
+  line-height: 20px;
+}
+.quick-action ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.social-media-icons {
+  display: flex;
+}
+
+.social-media-icons > * {
+  margin-right: 10px;
+  width: 15%;
+  height: 15%;
+  object-fit: contain;
+}
+.copyright {
+  display: flex;
+  justify-content: end;
+  font-size: 12px;
+  max-width: 1250px;
+  margin-inline: auto;
+}
+
+@media (max-width: 1440px) {
+  .footer-logo-div {
+    flex-direction: column;
+  }
+  .social-media-icons {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .copyright {
+    margin-top: 60px;
+    justify-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  .social-media-icons{
+    margin-top: 10px;
+  }
+
+  .social-media-icons > * {
+    width: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-logo{
+    padding-left: 40px;
+  }
+  .even-columns {
+    flex-direction: column;
+    padding-left: 40px;
+  }
+  .social-media-icons > * {
+    width: 8%;
+  }
+
+}

@@ -1,0 +1,45 @@
+.info-section {
+  margin: 80px 0 80px 0;
+}
+.explainer-section {
+  flex-wrap: wrap;
+  gap: 3rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(212, 210, 210, 0.6);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  align-items: center;
+  width: 60%;
+  padding: 25px;
+  margin-inline: auto;
+}
+.explainer-section:first-child {
+  margin-top: 200px;
+}
+.infographics {
+  width: 37%;
+}
+
+@media (max-width: 600px) {
+  .explainer-section{
+    width: 80%;
+  }
+  .infographics {
+    width: 80%;
+  }
+}
+
+.info-text-section h3 {
+  color: var(--smaller-text-color-in-header);
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.info-text-section p {
+  color: var(--smaller-text-color-in-main);
+  font-size: 17px;
+  line-height: 30px;
+  max-width: 420px;
+}
