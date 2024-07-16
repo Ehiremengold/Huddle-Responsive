@@ -106,7 +106,7 @@ footer {
   }
 }
 @media (max-width: 1024px) {
-  .social-media-icons{
+  .social-media-icons {
     margin-top: 10px;
   }
 
@@ -116,7 +116,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .footer-logo{
+  .footer-logo {
     padding-left: 40px;
   }
   .even-columns {
@@ -126,5 +126,13 @@ footer {
   .social-media-icons > * {
     width: 8%;
   }
+}
 
+@media (max-width: 500px) {
+  .social-media-icons {
+    margin-top: 20px;
+  }
+  .copyright {
+    margin-top: 20px;
+  }
 }
